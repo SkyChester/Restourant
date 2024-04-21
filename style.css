@@ -185,6 +185,7 @@ body {
 
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
@@ -256,4 +257,65 @@ body {
     z-index: 999;
     top: 276px;
     left: -143px;
+}
+
+
+
+
+.black-block {
+    background-image: url(image/backjpg.jpg);
+    padding: 80px 0;
+}
+
+.left-title {
+    color: #D67E34;
+    font-family: "Tinos", serif;
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.right-btn {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+}
+
+.right-btn:hover {
+    background-color: #af5b17;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title {
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 132px;
+}
+
+.dishes-title span {
+    color: #D67E34
+}
+
+.dishlist {
+    display: flex;
+}
+
+.dishes-item {
+    display: flex;
 }

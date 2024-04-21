@@ -312,10 +312,13 @@ body {
     color: #D67E34
 }
 
-.dishlist {
+.burgers {
     display: flex;
 }
 
-.dishes-item {
+.burger-item {
     display: flex;
+    align-items: center;
+    margin-bottom: 29px;
 }
+

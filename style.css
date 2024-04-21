@@ -151,7 +151,7 @@ body {
     margin-right: 31px;
     background-color: #fff;
     margin-top: -80px;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .card-image {
@@ -180,4 +180,80 @@ body {
     font-size: 26px;
     font-weight: 400;
     color: #656363;
+}
+
+
+.history {
+    margin-top: 166px;
+}
+
+.history-title {
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 460px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-title span {
+    color: #FF7400;
+}
+
+.history-description {
+    color: #656363;
+    font-size: 16px;
+    width: 460px;
+    text-align: center;
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number-item span {
+    display: block;
+    color: #000;
+}
+
+.history-images{
+    position: relative;
+
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imges-1 {
+    position: absolute;
+    z-index: 0;
+    top: 152px;
+    left: -426px;
+}
+
+.imges-2 {
+    position: absolute;
+    z-index: 999;
+    top: -34px;
+    left: -186px;
+}
+
+.imges-3 {
+    position: absolute;
+    z-index: 999;
+    top: 276px;
+    left: -143px;
 }

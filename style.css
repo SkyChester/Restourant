@@ -410,6 +410,22 @@ body {
     font-size: 30px;
 }
 
+.price-num2 {
+    position: absolute;
+    bottom: 31px;
+    right: 68px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.price-num3 {
+    position: absolute;
+    bottom: 31px;
+    right: 68px;
+    color: #fff;
+    font-size: 30px;
+}
+
 .menu-items {
     display: flex;
     justify-content: center;

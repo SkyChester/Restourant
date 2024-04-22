@@ -623,6 +623,10 @@ body {
     .history-number {
         width: auto;
     }
+
+    .dish-image {
+        display: none;
+    }
 }
 
 @media (max-width: 1185px) {

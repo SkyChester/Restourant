@@ -430,3 +430,39 @@ body {
     display: flex;
     justify-content: center;
 }
+
+
+
+
+.comment {
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.comment-text {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.comment-image {
+    text-align: center;
+}
+
+.comment-type {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.comment-name {
+    padding-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}

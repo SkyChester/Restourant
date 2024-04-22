@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "digital-7";
+    src: url(font/digital-7.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clock {
+    font-family: "digital-7";
+    color: #FF7400;
+    font-size: 40px;
+}
+
+
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -566,6 +580,7 @@ button {
 .disp {
     display: none;
 }
+
 
 
 

@@ -16,3 +16,29 @@ function time() {
 }
 
 setInterval(time, 500);
+
+function exitDialog() {
+    document.getElementById("info").style.display = "none";
+}
+
+function showDialog() {
+    document.getElementById("info").style.display = "flex";
+}
+
+function senddata() {
+    $.ajax({
+        url: 'data.php',
+        type: 'POST',
+        data: {
+            name: $('#name').val(),
+            number: $('#number').val(),
+            time: $('#time').val()
+        },
+        success: function(response) {
+            alert('Ваш столик заброньовано!');
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            alert('Виникла помилка: ' + textStatus);
+        }
+    });
+}

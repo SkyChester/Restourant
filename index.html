@@ -11,9 +11,31 @@
     <link rel="icon" type="image/x-icon" href="image/icon.ico">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
-    <title>Ресторан</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<title>Ресторан</title>
 </head>
-<body>
+<body>   
+<div id="info" class="info">
+    <button class="close-btn" onclick="exitDialog()">&#10006;</button>
+    <div class="form-container">
+        <form onsubmit="event.preventDefault(); senddata();">
+            <div class="form-text">Оформіть бронювання столику</div>
+            <input type="text" name="name" id="name" placeholder="Ваше ім'я" required>
+            <input type="text" name="number" id="number" placeholder="Ваш номер телефону" required>
+            <select name="languages" id="time">
+                <option value="11:00">11:00</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+              </select>
+              <input type="submit" value="Забронювати">
+        </form>
+    </div>
+</div>
     <div class="header">
         <div class="container">
             <div class="header-line">
@@ -55,7 +77,7 @@
                 </div>
 
                 <div class="btn">
-                    <a class="button" href="#">Забронювати столик</a>
+                    <button class="button" type="button" onclick="showDialog()">Забронювати столик</button>
                 </div>
 
                 <div class="burger-menu">
@@ -99,10 +121,11 @@
                         Приємна <span>атмосфера</span>
                     </div>
                     <div class="card-description">
-                        У нашому закладі панує чудова атмосфера, наповнена смачними ароматами
+                       У нашому закладі панує чудова атмосфера, наповнена смачними ароматами
                     </div>
                 </div>
 
+                
                 <div class="card">
                     <div class="card-image">
                         <img class="card-img" src="image/cardicon.png">
@@ -181,7 +204,7 @@
 
                 <div class="black-rigt">
                     <div class="right-button">
-                        <a href="#" class="right-btn">Замовити столик</a>
+                        <button class="button" type="button" onclick="showDialog()">Замовити столик</button>
                     </div>
                 </div>
             </div>

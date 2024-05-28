@@ -7,7 +7,7 @@ $dbname = "inforest";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
-    die("З'єднання не вдалося: " . $conn->connect_error);
+    die("Під'єднання не вдалося: " . $conn->connect_error);
 }
 
 $name = $_POST['name'];
@@ -19,7 +19,7 @@ $stmt = $conn->prepare($sql);
 $stmt->bind_param("sss", $name, $number, $time);
 
 if ($stmt->execute()) {
-    
+
 } else {
     echo "Помилка: " . $sql . "<br>" . $conn->error;
 }
